@@ -51,11 +51,9 @@ const Header = () => {
                   >
                     <small>5</small>
                   </span>
-                  <a href="/carrinho.html" class="nav-link text-white">
-                    <i style={{ fontSize: "24px", lineHeight: "24px" }}>
-                      <Cart />
-                    </i>
-                  </a>
+                  <Link to="/shopp-cart" class="nav-link text-white">
+                    <Cart />
+                  </Link>
                 </li>
               </ul>
             </div>
