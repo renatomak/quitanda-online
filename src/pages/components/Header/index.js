@@ -40,7 +40,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <a href="/login.html" class="nav-link text-white">
+                  <a href="/login" class="nav-link text-white">
                     Entrar
                   </a>
                 </li>
