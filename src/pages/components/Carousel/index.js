@@ -1,6 +1,4 @@
 import React from "react";
-import Slid01 from "../../../asserts/img/slides/slide01.jpg";
-import slide01small from "../../../asserts/img/slides/slide01small.jpg";
 
 function Carousel() {
   return (
@@ -30,16 +28,40 @@ function Carousel() {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="3000">
-            <img src={Slid01} class="d-none d-md-block w-100" alt="" />
-            <img src={slide01small} class="d-block d-md-none  w-100" alt="" />
+            <img
+              src="/img/slides/slide01.jpg"
+              class="d-none d-md-block w-100"
+              alt=""
+            />
+            <img
+              src="/img/slides/slide01small.jpg"
+              class="d-block d-md-none  w-100"
+              alt=""
+            />
           </div>
           <div class="carousel-item" data-bs-interval="3000">
-            <img src={Slid01} class="d-none d-md-block w-100" alt="" />
-            <img src={slide01small} class="d-block d-md-none  w-100" alt="" />
+            <img
+              src="/img/slides/slide01.jpg"
+              class="d-none d-md-block w-100"
+              alt=""
+            />
+            <img
+              src="/img/slides/slide01small.jpg"
+              class="d-block d-md-none  w-100"
+              alt=""
+            />
           </div>
           <div class="carousel-item" data-bs-interval="3000">
-            <img src={Slid01} class="d-none d-md-block w-100" alt="" />
-            <img src={slide01small} class="d-block d-md-none  w-100" alt="" />
+            <img
+              src="/img/slides/slide01.jpg"
+              class="d-none d-md-block w-100"
+              alt=""
+            />
+            <img
+              src="/img/slides/slide01small.jpg"
+              class="d-block d-md-none  w-100"
+              alt=""
+            />
           </div>
         </div>
         <button

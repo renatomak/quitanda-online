@@ -1,5 +1,6 @@
 import React from "react";
 import { Cart } from "react-bootstrap-icons";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -20,14 +21,14 @@ const Header = () => {
           <div class="collapse navbar-collapse">
             <ul class="navbar-nav flex-grow-1">
               <li class="nav-item">
-                <a class="nav-link text-white" href="/index.html">
+                <a class="nav-link text-white" href="/">
                   Principal
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="/contato.html">
+                <Link to="/contato" class="nav-link text-white">
                   Contato
-                </a>
+                </Link>
               </li>
             </ul>
             <div class="align-self-end">
