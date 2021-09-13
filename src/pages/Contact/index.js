@@ -1,6 +1,6 @@
 import React from "react";
 
-const Contato = () => (
+const Contact = () => (
   <main class="flex-fill">
     <div class="container">
       <div class="row justify-content-center">
@@ -62,4 +62,4 @@ const Contato = () => (
   </main>
 );
 
-export default Contato;
+export default Contact;

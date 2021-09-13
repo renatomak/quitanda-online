@@ -2,8 +2,9 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Footer from "./pages/components/Footer";
 import Header from "./pages/components/Header";
-import Contato from "./pages/Contato";
+import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import Registration from "./pages/Registration";
 
 const Router = () => {
   return (
@@ -11,7 +12,8 @@ const Router = () => {
       <Header />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/contato" exact component={Contato} />
+        <Route path="/contact" exact component={Contact} />
+        <Route path="/registration" exact component={Registration} />
       </Switch>
       <Footer />
     </BrowserRouter>

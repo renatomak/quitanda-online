@@ -26,7 +26,7 @@ const Header = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <Link to="/contato" class="nav-link text-white">
+                <Link to="/contact" class="nav-link text-white">
                   Contato
                 </Link>
               </li>
@@ -34,9 +34,10 @@ const Header = () => {
             <div class="align-self-end">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a href="/cadastro.html" class="nav-link text-white">
-                    Quero Me Cadastrar
-                  </a>
+                  <Link to="/registration" class="nav-link text-white">
+                    {" "}
+                    Quero Me Cadastrar{" "}
+                  </Link>
                 </li>
                 <li class="nav-item">
                   <a href="/login.html" class="nav-link text-white">
