@@ -230,11 +230,11 @@ const ShoppCart = () => (
         <li class="list-group-item py-3">
           <div class="text-end">
             <h4 class="text-dark mb-3">Valor Total: R$ 63,84</h4>
-            <a href="/index.html" class="btn btn-outline-success btn-lg">
+            <a href="/" class="btn btn-outline-success btn-lg">
               Continuar Comprando
             </a>
             <a
-              href="/fechamento_itens.html"
+              href="/close-shopp-cart"
               class="btn btn-danger btn-lg ms-2 mt-xs-3"
             >
               Fechar Compra
