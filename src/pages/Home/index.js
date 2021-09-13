@@ -9,6 +9,7 @@ const Home = () => {
       <main class="flex-fill">
         <div class="container">
           <SearchBar />
+          <hr mt-3 />
         </div>
       </main>
     </>
