@@ -5,6 +5,7 @@ import CloseAddress from './pages/CloseAddress';
 import CloseOrder from './pages/CloseOrder';
 import CloseShoppCart from './pages/CloseShoppCart';
 import Footer from './pages/components/Footer';
+import ExchangesRetuns from './pages/components/Footer/ExchangesRetuns';
 import PrivacyPolicy from './pages/components/Footer/PrivacyPolicy';
 import TermsOfUse from './pages/components/Footer/TermsOfUse';
 import WhoWeAre from './pages/components/Footer/WhoWeAre';
@@ -32,6 +33,7 @@ const Router = () => {
         <Route path="/privacy-policy" component={PrivacyPolicy} />
         <Route path="/terms-of-use" component={TermsOfUse} />
         <Route path="/who-we-are" component={WhoWeAre} />
+        <Route path="/exchanges-retuns" component={ExchangesRetuns} />
       </Switch>
       <Footer />
     </BrowserRouter>

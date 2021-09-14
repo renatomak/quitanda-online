@@ -24,12 +24,12 @@ export default function Footer() {
               Quem Somos
             </a>
             <br />
-            <a href="/trocas.html" class="text-decoration-none text-dark">
+            <a href="/exchanges-retuns" class="text-decoration-none text-dark">
               Trocas e Devoluções
             </a>
           </div>
           <div class="col-12 col-md-4 text-center">
-            <a href="/contato.html" class="text-decoration-none text-dark">
+            <a href="/contact" class="text-decoration-none text-dark">
               Contato pelo Site
             </a>
             <br />
