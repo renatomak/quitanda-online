@@ -6,6 +6,8 @@ import CloseOrder from './pages/CloseOrder';
 import CloseShoppCart from './pages/CloseShoppCart';
 import Footer from './pages/components/Footer';
 import PrivacyPolicy from './pages/components/Footer/PrivacyPolicy';
+import TermsOfUse from './pages/components/Footer/TermsOfUse';
+import WhoWeAre from './pages/components/Footer/WhoWeAre';
 import Header from './pages/components/Header';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
@@ -19,15 +21,17 @@ const Router = () => {
       <Header />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/contact" exact component={Contact} />
-        <Route path="/registration" exact component={Registration} />
-        <Route path="/login" exact component={Login} />
-        <Route path="/shopp-cart" exact component={ShoppCart} />
-        <Route path="/close-shopp-cart" exact component={CloseShoppCart} />
-        <Route path="/close-address" exact component={CloseAddress} />
-        <Route path="/close-payment" exact component={ClosePayment} />
-        <Route path="/close-order" exact component={CloseOrder} />
-        <Route path="/privacy-policy" exact component={PrivacyPolicy} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/registration" component={Registration} />
+        <Route path="/login" component={Login} />
+        <Route path="/shopp-cart" component={ShoppCart} />
+        <Route path="/close-shopp-cart" component={CloseShoppCart} />
+        <Route path="/close-address" component={CloseAddress} />
+        <Route path="/close-payment" component={ClosePayment} />
+        <Route path="/close-order" component={CloseOrder} />
+        <Route path="/privacy-policy" component={PrivacyPolicy} />
+        <Route path="/terms-of-use" component={TermsOfUse} />
+        <Route path="/who-we-are" component={WhoWeAre} />
       </Switch>
       <Footer />
     </BrowserRouter>

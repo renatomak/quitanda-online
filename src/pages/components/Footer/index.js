@@ -16,11 +16,11 @@ export default function Footer() {
               Política de Privacidade
             </a>
             <br />
-            <a href="/termos.html" class="text-decoration-none text-dark">
+            <a href="/terms-of-use" class="text-decoration-none text-dark">
               Termos de Uso
             </a>
             <br />
-            <a href="/quemsomos.html" class="text-decoration-none text-dark">
+            <a href="/who-we-are" class="text-decoration-none text-dark">
               Quem Somos
             </a>
             <br />
