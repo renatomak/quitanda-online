@@ -5,6 +5,7 @@ import CloseAddress from './pages/CloseAddress';
 import CloseOrder from './pages/CloseOrder';
 import CloseShoppCart from './pages/CloseShoppCart';
 import Footer from './pages/components/Footer';
+import PrivacyPolicy from './pages/components/Footer/PrivacyPolicy';
 import Header from './pages/components/Header';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
@@ -26,6 +27,7 @@ const Router = () => {
         <Route path="/close-address" exact component={CloseAddress} />
         <Route path="/close-payment" exact component={ClosePayment} />
         <Route path="/close-order" exact component={CloseOrder} />
+        <Route path="/privacy-policy" exact component={PrivacyPolicy} />
       </Switch>
       <Footer />
     </BrowserRouter>

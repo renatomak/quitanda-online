@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function Footer() {
   return (
@@ -12,7 +12,7 @@ export default function Footer() {
             CPNJ 99.999.999/0001-99
           </div>
           <div class="col-12 col-md-4 text-center">
-            <a href="/privacidade.html" class="text-decoration-none text-dark">
+            <a href="/privacy-policy" class="text-decoration-none text-dark">
               Política de Privacidade
             </a>
             <br />
@@ -33,7 +33,7 @@ export default function Footer() {
               Contato pelo Site
             </a>
             <br />
-            E-mail:{" "}
+            E-mail:{' '}
             <a
               href="mailto:email@dominio.com"
               class="text-decoration-none text-dark"
@@ -41,7 +41,7 @@ export default function Footer() {
               email@dominio.com
             </a>
             <br />
-            Telefone:{" "}
+            Telefone:{' '}
             <a href="phone:28999990000" class="text-decoration-none text-dark">
               (28) 99999-0000
             </a>
