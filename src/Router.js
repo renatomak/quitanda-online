@@ -13,6 +13,7 @@ import Header from './pages/components/Header';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Login from './pages/Login';
+import RecoverPassword from './pages/RecoverPassword';
 import Registration from './pages/Registration';
 import ShoppCart from './pages/ShoppCart';
 
@@ -24,6 +25,7 @@ const Router = () => {
         <Route path="/" exact component={Home} />
         <Route path="/contact" component={Contact} />
         <Route path="/registration" component={Registration} />
+        <Route path="/recover-password" component={RecoverPassword} />
         <Route path="/login" component={Login} />
         <Route path="/shopp-cart" component={ShoppCart} />
         <Route path="/close-shopp-cart" component={CloseShoppCart} />

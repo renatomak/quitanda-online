@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Login = () => (
   <main class="flex-fill">
@@ -49,13 +49,13 @@ const Login = () => (
           </button>
 
           <p class="mt-3">
-            Ainda não é cadastrado? <a href="/cadastro.html">Clique aqui</a>{" "}
-            para se cadastrar.
+            Ainda não é cadastrado? <a href="/registration">Clique aqui</a> para
+            se cadastrar.
           </p>
 
           <p class="mt-3">
-            Esqueceu sua senha? <a href="/recuperarsenha.html">Clique aqui</a>{" "}
-            para recuperá-la.
+            Esqueceu sua senha? <a href="/recover-password">Clique aqui</a> para
+            recuperá-la.
           </p>
         </form>
       </div>
