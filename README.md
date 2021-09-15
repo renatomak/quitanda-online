@@ -35,18 +35,17 @@ O Loyout da aplicação foi feita com base no curso curso ["Desenvolvimento de u
 
 # Como executar o projeto localmente
 
-1º - Clone o [Repositório](https://github.com/renatomak/projeto-sds3) do projeto no GitHub
+1º - Clone o [Repositório](https://github.com/renatomak/quitandas-online) do projeto no GitHub
 
 Pré-requisitos:
 npm / yarn
-Spring Tool Suite
 
 ## Frontend
 
-3. Instale as dependências - npm install ou yarn install
-4. Inicie o projeto - npm start ou yarn start
+1. Instale as dependências - npm install ou yarn install
+2. Inicie o projeto - npm start ou yarn start
 
-## Acesse: ["Quitanda Online"]()
+## Acesse: ["Quitanda Online"](https://quitandasonline.netlify.app/)
 
 ## Proximos Passos
 
