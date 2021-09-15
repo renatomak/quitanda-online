@@ -1,22 +1,17 @@
-const ProductsModel = (sequelize, DataTypes) => {
-  const Products = sequelize.define('Products', {
+const productsModel = (sequelize, DataTypes) => {
+  const products = sequelize.define('products', {
     name: DataTypes.STRING,
     price: DataTypes.DECIMAL,
     description: DataTypes.STRING,
     quantity: DataTypes.INTEGER,
     type: DataTypes.ENUM('FRUTAS', 'VERDURAS'),
-    urlImage: DataTypes.STRING,
+    url_image: DataTypes.STRING,
   },
   {
     timestamps: false,
   });
 
-  Products.associate = (models) => {
-    Products.blongs(models.User,
-      { foreignKey: 'userId', as: 'users' });
-  };
-
-  return Products;
+  return products;
 };
 
-module.exports = ProductsModel;
+module.exports = productsModel;
