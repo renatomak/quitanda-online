@@ -8,7 +8,7 @@ const AddressModel = (sequelize, DataTypes) => {
     complement: DataTypes.STRING,
     reference: DataTypes.STRING,
     cep: DataTypes.STRING,
-    userId: { type: DataTypes.INTEGER, foreignKey: true },
+    user_id: { type: DataTypes.INTEGER, foreignKey: true },
   },
   {
     timestamps: false,

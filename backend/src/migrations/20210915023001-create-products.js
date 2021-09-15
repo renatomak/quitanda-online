@@ -27,6 +27,9 @@ module.exports = {
         allowNull: false,
         type: Sequelize.ENUM('FRUTAS', 'VERDURAS'),
       },
+      url_image: {
+        type: Sequelize.STRING,
+      },
     });
   },
   down: async (queryInterface, Sequelize) => {

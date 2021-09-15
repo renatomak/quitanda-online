@@ -7,14 +7,14 @@ module.exports = (sequelize) => {
     models.Products.belongsToMany(models.User, {
       as: 'users',
       through: Order,
-      foreignKey: 'products_id',
-      otherKey: 'userId',
+      foreignKey: 'product_id',
+      otherKey: 'user_id',
     });
     models.User.belongsToMany(models.Products, {
       as: 'products',
       through: Order,
-      foreignKey: 'userId',
-      otherKey: 'products_id',
+      foreignKey: 'user_id',
+      otherKey: 'product_id',
     });
   };
 

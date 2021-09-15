@@ -5,6 +5,7 @@ const ProductsModel = (sequelize, DataTypes) => {
     description: DataTypes.STRING,
     quantity: DataTypes.INTEGER,
     type: DataTypes.ENUM('FRUTAS', 'VERDURAS'),
+    urlImage: DataTypes.STRING,
   },
   {
     timestamps: false,
