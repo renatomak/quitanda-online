@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
 const CloseShoppCart = () => (
   <main class="flex-fill">
     <div class="container">
       <h1>Confira os Itens</h1>
       <h3>
-        Confira os itens e clique em <b>Continuar</b> para prosseguir para a{" "}
+        Confira os itens e clique em <b>Continuar</b> para prosseguir para a{' '}
         <b>seleção do endereço de entrega</b>.
       </h3>
       <ul class="list-group mb-3">
@@ -13,7 +13,10 @@ const CloseShoppCart = () => (
           <div class="row g-3">
             <div class="col-4 col-md-3 col-lg-2">
               <a href="#">
-                <img src="/img/produtos/000008.jpg" class="img-thumbnail" />
+                <img
+                  src="/asserts/img/produtos/000008.jpg"
+                  class="img-thumbnail"
+                />
               </a>
             </div>
             <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
@@ -39,7 +42,10 @@ const CloseShoppCart = () => (
           <div class="row g-3">
             <div class="col-4 col-md-3 col-lg-2">
               <a href="#">
-                <img src="/img/produtos/000003.jpg" class="img-thumbnail" />
+                <img
+                  src="/asserts/img/produtos/000003.jpg"
+                  class="img-thumbnail"
+                />
               </a>
             </div>
             <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
@@ -51,7 +57,7 @@ const CloseShoppCart = () => (
                 </b>
               </h4>
               <h5>
-                Abacate manteiga da melhor qualidade possível e muito fresco.{" "}
+                Abacate manteiga da melhor qualidade possível e muito fresco.{' '}
                 <br />
                 <b>
                   4 unidade(s) <br />
@@ -65,7 +71,10 @@ const CloseShoppCart = () => (
           <div class="row g-3">
             <div class="col-4 col-md-3 col-lg-2">
               <a href="#">
-                <img src="/img/produtos/000006.jpg" class="img-thumbnail" />
+                <img
+                  src="/asserts/img/produtos/000006.jpg"
+                  class="img-thumbnail"
+                />
               </a>
             </div>
             <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
@@ -77,7 +86,7 @@ const CloseShoppCart = () => (
                 </b>
               </h4>
               <h5>
-                Abacate manteiga da melhor qualidade possível e muito fresco.{" "}
+                Abacate manteiga da melhor qualidade possível e muito fresco.{' '}
                 <br />
                 <b>
                   4 unidade(s) <br />
@@ -91,7 +100,10 @@ const CloseShoppCart = () => (
           <div class="row g-3">
             <div class="col-4 col-md-3 col-lg-2">
               <a href="#">
-                <img src="/img/produtos/000012.jpg" class="img-thumbnail" />
+                <img
+                  src="/asserts/img/produtos/000012.jpg"
+                  class="img-thumbnail"
+                />
               </a>
             </div>
             <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
@@ -103,7 +115,7 @@ const CloseShoppCart = () => (
                 </b>
               </h4>
               <h5>
-                Abacate manteiga da melhor qualidade possível e muito fresco.{" "}
+                Abacate manteiga da melhor qualidade possível e muito fresco.{' '}
                 <br />
                 <b>
                   4 unidade(s) <br />

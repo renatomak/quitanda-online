@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Cards = () => (
   <div class="row g-3">
@@ -7,11 +7,11 @@ const Cards = () => (
         <a href="#" class="position-absolute end-0 p-2 text-danger">
           <i
             class="bi-suit-heart"
-            style={{ fontSize: "24px", lineHeight: "24px" }}
+            style={{ fontSize: '24px', lineHeight: '24px' }}
           ></i>
         </a>
         <a href="/produto.html">
-          <img src="/img/produtos/000001.jpg" class="card-img-top" />
+          <img src="/asserts/img/produtos/000001.jpg" class="card-img-top" />
         </a>
         <div class="card-header">R$ 4,50</div>
         <div class="card-body">
@@ -34,10 +34,10 @@ const Cards = () => (
         <a href="#" class="position-absolute end-0 p-2 text-danger">
           <i
             class="bi-suit-heart"
-            style={{ fontSize: "24px", lineHeight: "24px" }}
+            style={{ fontSize: '24px', lineHeight: '24px' }}
           ></i>
         </a>
-        <img src="/img/produtos/000002.jpg" class="card-img-top" />
+        <img src="/asserts/img/produtos/000002.jpg" class="card-img-top" />
         <div class="card-header">R$ 4,50</div>
         <div class="card-body">
           <h5 class="card-title">Banana Prata</h5>
@@ -59,10 +59,10 @@ const Cards = () => (
         <a href="#" class="position-absolute end-0 p-2 text-danger">
           <i
             class="bi-suit-heart"
-            style={{ fontSize: "24px", lineHeight: "24px" }}
+            style={{ fontSize: '24px', lineHeight: '24px' }}
           ></i>
         </a>
-        <img src="/img/produtos/000003.jpg" class="card-img-top" />
+        <img src="/asserts/img/produtos/000003.jpg" class="card-img-top" />
         <div class="card-header">R$ 4,50</div>
         <div class="card-body">
           <h5 class="card-title">Banana Prata</h5>
@@ -86,10 +86,10 @@ const Cards = () => (
         <a href="#" class="position-absolute end-0 p-2 text-danger">
           <i
             class="bi-suit-heart-fill"
-            style={{ fontSize: "24px", lineHeight: "24px" }}
+            style={{ fontSize: '24px', lineHeight: '24px' }}
           ></i>
         </a>
-        <img src="/img/produtos/000004.jpg" class="card-img-top" />
+        <img src="/asserts/img/produtos/000004.jpg" class="card-img-top" />
         <div class="card-header">R$ 4,50</div>
         <div class="card-body">
           <h5 class="card-title">Banana Prata</h5>
@@ -111,10 +111,10 @@ const Cards = () => (
         <a href="#" class="position-absolute end-0 p-2 text-danger">
           <i
             class="bi-suit-heart"
-            style={{ fontSize: "24px", lineHeight: "24px" }}
+            style={{ fontSize: '24px', lineHeight: '24px' }}
           ></i>
         </a>
-        <img src="/img/produtos/000005.jpg" class="card-img-top" />
+        <img src="/asserts/img/produtos/000005.jpg" class="card-img-top" />
         <div class="card-header">R$ 4,50</div>
         <div class="card-body">
           <h5 class="card-title">Banana Prata</h5>
@@ -136,10 +136,10 @@ const Cards = () => (
         <a href="#" class="position-absolute end-0 p-2 text-danger">
           <i
             class="bi-suit-heart"
-            style={{ fontSize: "24px", lineHeight: "24px" }}
+            style={{ fontSize: '24px', lineHeight: '24px' }}
           ></i>
         </a>
-        <img src="/img/produtos/000006.jpg" class="card-img-top" />
+        <img src="/asserts/img/produtos/000006.jpg" class="card-img-top" />
         <div class="card-header">R$ 4,50</div>
         <div class="card-body">
           <h5 class="card-title">Banana Prata</h5>
@@ -161,10 +161,10 @@ const Cards = () => (
         <a href="#" class="position-absolute end-0 p-2 text-danger">
           <i
             class="bi-suit-heart"
-            style={{ fontSize: "24px", lineHeight: "24px" }}
+            style={{ fontSize: '24px', lineHeight: '24px' }}
           ></i>
         </a>
-        <img src="/img/produtos/000007.jpg" class="card-img-top" />
+        <img src="/asserts/img/produtos/000007.jpg" class="card-img-top" />
         <div class="card-header">R$ 4,50</div>
         <div class="card-body">
           <h5 class="card-title">Banana Prata</h5>
@@ -186,10 +186,10 @@ const Cards = () => (
         <a href="#" class="position-absolute end-0 p-2 text-danger">
           <i
             class="bi-suit-heart"
-            style={{ fontSize: "24px", lineHeight: "24px" }}
+            style={{ fontSize: '24px', lineHeight: '24px' }}
           ></i>
         </a>
-        <img src="/img/produtos/000008.jpg" class="card-img-top" />
+        <img src="/asserts/img/produtos/000008.jpg" class="card-img-top" />
         <div class="card-header">R$ 4,50</div>
         <div class="card-body">
           <h5 class="card-title">Banana Prata</h5>
@@ -211,10 +211,10 @@ const Cards = () => (
         <a href="#" class="position-absolute end-0 p-2 text-danger">
           <i
             class="bi-suit-heart-fill"
-            style={{ fontSize: "24px", lineHeight: "24px" }}
+            style={{ fontSize: '24px', lineHeight: '24px' }}
           ></i>
         </a>
-        <img src="/img/produtos/000009.jpg" class="card-img-top" />
+        <img src="/asserts/img/produtos/000009.jpg" class="card-img-top" />
         <div class="card-header">R$ 4,50</div>
         <div class="card-body">
           <h5 class="card-title">Banana Prata</h5>
@@ -236,10 +236,10 @@ const Cards = () => (
         <a href="#" class="position-absolute end-0 p-2 text-danger">
           <i
             class="bi-suit-heart"
-            style={{ fontSize: "24px", lineHeight: "24px" }}
+            style={{ fontSize: '24px', lineHeight: '24px' }}
           ></i>
         </a>
-        <img src="/img/produtos/000010.jpg" class="card-img-top" />
+        <img src="/asserts/img/produtos/000010.jpg" class="card-img-top" />
         <div class="card-header">R$ 4,50</div>
         <div class="card-body">
           <h5 class="card-title">Banana Prata</h5>
@@ -261,10 +261,10 @@ const Cards = () => (
         <a href="#" class="position-absolute end-0 p-2 text-danger">
           <i
             class="bi-suit-heart"
-            style={{ fontSize: "24px", lineHeight: "24px" }}
+            style={{ fontSize: '24px', lineHeight: '24px' }}
           ></i>
         </a>
-        <img src="/img/produtos/000011.jpg" class="card-img-top" />
+        <img src="/asserts/img/produtos/000011.jpg" class="card-img-top" />
         <div class="card-header">R$ 4,50</div>
         <div class="card-body">
           <h5 class="card-title">Banana Prata</h5>
@@ -286,10 +286,10 @@ const Cards = () => (
         <a href="#" class="position-absolute end-0 p-2 text-danger">
           <i
             class="bi-suit-heart"
-            style={{ fontSize: "24px", lineHeight: "24px" }}
+            style={{ fontSize: '24px', lineHeight: '24px' }}
           ></i>
         </a>
-        <img src="/img/produtos/000012.jpg" class="card-img-top" />
+        <img src="/asserts/img/produtos/000012.jpg" class="card-img-top" />
         <div class="card-header">R$ 4,50</div>
         <div class="card-body">
           <h5 class="card-title">Banana Prata</h5>

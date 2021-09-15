@@ -1,5 +1,5 @@
-import React from "react";
-import { CaretDown, CaretUp, Trash } from "react-bootstrap-icons";
+import React from 'react';
+import { CaretDown, CaretUp, Trash } from 'react-bootstrap-icons';
 
 const ShoppCart = () => (
   <main class="flex-fill">
@@ -10,7 +10,10 @@ const ShoppCart = () => (
           <div class="row g-3">
             <div class="col-4 col-md-3 col-lg-2">
               <a href="#">
-                <img src="/img/produtos/000008.jpg" class="img-thumbnail" />
+                <img
+                  src="/asserts/img/produtos/000008.jpg"
+                  class="img-thumbnail"
+                />
               </a>
             </div>
             <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
@@ -28,7 +31,7 @@ const ShoppCart = () => (
             <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 align-self-center mt-3">
               <div class="input-group">
                 <button class="btn btn-outline-dark btn-sm" type="button">
-                  <i style={{ fontSize: "16px", lineHeight: "16px" }}>
+                  <i style={{ fontSize: '16px', lineHeight: '16px' }}>
                     <CaretDown />
                   </i>
                 </button>
@@ -38,7 +41,7 @@ const ShoppCart = () => (
                   value="4"
                 />
                 <button class="btn btn-outline-dark btn-sm" type="button">
-                  <i style={{ fontSize: "16px", lineHeight: "16px" }}>
+                  <i style={{ fontSize: '16px', lineHeight: '16px' }}>
                     <CaretUp />
                   </i>
                 </button>
@@ -46,7 +49,7 @@ const ShoppCart = () => (
                   class="btn btn-outline-danger border-dark btn-sm"
                   type="button"
                 >
-                  <i style={{ fontSize: "16px", lineHeight: "16px" }}>
+                  <i style={{ fontSize: '16px', lineHeight: '16px' }}>
                     <Trash />
                   </i>
                 </button>
@@ -63,7 +66,10 @@ const ShoppCart = () => (
           <div class="row g-3">
             <div class="col-4 col-md-3 col-lg-2">
               <a href="#">
-                <img src="/img/produtos/000003.jpg" class="img-thumbnail" />
+                <img
+                  src="/asserts/img/produtos/000003.jpg"
+                  class="img-thumbnail"
+                />
               </a>
             </div>
             <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
@@ -83,7 +89,7 @@ const ShoppCart = () => (
                 <button class="btn btn-outline-dark btn-sm" type="button">
                   <i
                     class="bi-caret-down"
-                    style={{ fontSize: "16px", lineHeight: "16px" }}
+                    style={{ fontSize: '16px', lineHeight: '16px' }}
                   >
                     <CaretDown />
                   </i>
@@ -94,7 +100,7 @@ const ShoppCart = () => (
                   value="4"
                 />
                 <button class="btn btn-outline-dark btn-sm" type="button">
-                  <i style={{ fontSize: "16px", lineHeight: "16px" }}>
+                  <i style={{ fontSize: '16px', lineHeight: '16px' }}>
                     <CaretUp />
                   </i>
                 </button>
@@ -102,7 +108,7 @@ const ShoppCart = () => (
                   class="btn btn-outline-danger border-dark btn-sm"
                   type="button"
                 >
-                  <i style={{ fontSize: "16px", lineHeight: "16px" }}>
+                  <i style={{ fontSize: '16px', lineHeight: '16px' }}>
                     <Trash />
                   </i>
                 </button>
@@ -119,7 +125,10 @@ const ShoppCart = () => (
           <div class="row g-3">
             <div class="col-4 col-md-3 col-lg-2">
               <a href="#">
-                <img src="/img/produtos/000006.jpg" class="img-thumbnail" />
+                <img
+                  src="/asserts/img/produtos/000006.jpg"
+                  class="img-thumbnail"
+                />
               </a>
             </div>
             <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
@@ -139,7 +148,7 @@ const ShoppCart = () => (
                 <button class="btn btn-outline-dark btn-sm" type="button">
                   <i
                     class="bi-caret-down"
-                    style={{ fontSize: "16px", lineHeight: "16px" }}
+                    style={{ fontSize: '16px', lineHeight: '16px' }}
                   >
                     <CaretDown />
                   </i>
@@ -150,7 +159,7 @@ const ShoppCart = () => (
                   value="4"
                 />
                 <button class="btn btn-outline-dark btn-sm" type="button">
-                  <i style={{ fontSize: "16px", lineHeight: "16px" }}>
+                  <i style={{ fontSize: '16px', lineHeight: '16px' }}>
                     <CaretUp />
                   </i>
                 </button>
@@ -158,7 +167,7 @@ const ShoppCart = () => (
                   class="btn btn-outline-danger border-dark btn-sm"
                   type="button"
                 >
-                  <i style={{ fontSize: "16px", lineHeight: "16px" }}>
+                  <i style={{ fontSize: '16px', lineHeight: '16px' }}>
                     <Trash />
                   </i>
                 </button>
@@ -175,7 +184,10 @@ const ShoppCart = () => (
           <div class="row g-3">
             <div class="col-4 col-md-3 col-lg-2">
               <a href="#">
-                <img src="/img/produtos/000012.jpg" class="img-thumbnail" />
+                <img
+                  src="/asserts/img/produtos/000012.jpg"
+                  class="img-thumbnail"
+                />
               </a>
             </div>
             <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
@@ -195,7 +207,7 @@ const ShoppCart = () => (
                 <button class="btn btn-outline-dark btn-sm" type="button">
                   <i
                     class="bi-caret-down"
-                    style={{ fontSize: "16px", lineHeight: "16px" }}
+                    style={{ fontSize: '16px', lineHeight: '16px' }}
                   >
                     <CaretDown />
                   </i>
@@ -206,7 +218,7 @@ const ShoppCart = () => (
                   value="4"
                 />
                 <button class="btn btn-outline-dark btn-sm" type="button">
-                  <i style={{ fontSize: "16px", lineHeight: "16px" }}>
+                  <i style={{ fontSize: '16px', lineHeight: '16px' }}>
                     <CaretUp />
                   </i>
                 </button>
@@ -214,7 +226,7 @@ const ShoppCart = () => (
                   class="btn btn-outline-danger border-dark btn-sm"
                   type="button"
                 >
-                  <i style={{ fontSize: "16px", lineHeight: "16px" }}>
+                  <i style={{ fontSize: '16px', lineHeight: '16px' }}>
                     <Trash />
                   </i>
                 </button>
