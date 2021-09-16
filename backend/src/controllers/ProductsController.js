@@ -12,13 +12,14 @@ const {
   STATUS_201_CREATED,
   STATUS_400_BAD_REQUEST,
   STATUS_200_OK,
+  STATUS_204_NO_CONTENT,
 } = require("../util");
 
 
 
 const getProducts = rescue(async (_req, res) => {
   try {
-    const result = await getAllProducts();
+    const result = await findAllProducts();
 
     return res.status(STATUS_200_OK).json(result);
   } catch (error) {
@@ -57,15 +58,16 @@ const addProduct = rescue(async (req, res) => {
 });
 
 
-const deleteProduct = rescue(async (req, res) => {
+const deleteProduct = rescue(async (req, res)  => {
   try {
     const { id } = req.params; 
+    await destroyProduct(id);
 
-    return res.status(STATUS_201_CREATED).json({ message: "ok"});
+    return res.status(STATUS_204_NO_CONTENT).end();
   } catch (error) {
     return res
     .status(STATUS_400_BAD_REQUEST)
-      .json({ message: "Invalid fields" + err.message });
+      .json({ message: "Invalid fields" + error.message });
   }
 
 });

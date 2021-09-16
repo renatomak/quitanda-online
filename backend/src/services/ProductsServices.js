@@ -45,7 +45,16 @@ const updateProduct = async (product) => {
   }
 };
 
-const destroyProduct = (id) => {};
+const destroyProduct = async (id) => {
+  try {
+    await products.destroy(
+      { where: { id } }
+    );
+    return true
+  } catch (error) {
+    throw Error(error.message + messageError("deletar o Produto"));
+  }  
+};
 
 
 module.exports = {
