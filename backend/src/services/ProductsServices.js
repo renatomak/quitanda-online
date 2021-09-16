@@ -22,7 +22,7 @@ const findProductByPk = async (id) => {
 
 const createProduct = async (product) => {
   try {
-    const newProduct = await product.create(product);
+    const newProduct = await products.create(product);
 
     return newProduct;
   } catch (error) {
