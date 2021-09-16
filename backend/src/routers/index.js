@@ -21,4 +21,10 @@ router.post('/addresses', Controller.addAddress);
 router.put('/addresses/:id', Controller.changeAddress);
 router.delete('/addresses/:id', Controller.deleteAddress);
 
+router.get('/orders', Controller.getOrders);
+router.get('/orders/:id', Controller.getOrderById);
+router.post('/orders', Controller.addOrder);
+router.put('/orders/:id', Controller.changeOrder);
+router.delete('/orders/:id', Controller.deleteOrder);
+
 module.exports = router;

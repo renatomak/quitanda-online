@@ -18,6 +18,13 @@ const {
   deleteAddress,
   changeAddress,
 } = require('./AddressController')
+const {
+  getOrders,
+  getOrderById,
+  addOrder,
+  deleteOrder,
+  changeOrder,
+} = require('./OrderController')
 
 module.exports = {
   getProducts,
@@ -35,4 +42,9 @@ module.exports = {
   addAddress,
   deleteAddress,
   changeAddress,
+  getOrders,
+  getOrderById,
+  addOrder,
+  deleteOrder,
+  changeOrder,
 };
