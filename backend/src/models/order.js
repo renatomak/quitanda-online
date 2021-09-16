@@ -4,13 +4,13 @@ module.exports = (sequelize) => {
     { timestamps: false });
 
   Order.associate = (models) => {
-    models.products.belongsToMany(models.User, {
+    models.products.belongsToMany(models.user, {
       as: 'users',
       through: Order,
       foreignKey: 'product_id',
       otherKey: 'user_id',
     });
-    models.User.belongsToMany(models.products, {
+    models.user.belongsToMany(models.products, {
       as: 'products',
       through: Order,
       foreignKey: 'user_id',

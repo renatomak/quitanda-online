@@ -1,5 +1,5 @@
 const defineUserModel = (sequelize, DataTypes) => {
-  const User = sequelize.define('User', {
+  const user = sequelize.define('user', {
     name: DataTypes.STRING,
     homePhone: DataTypes.STRING,
     cellPhone: DataTypes.STRING,
@@ -12,12 +12,12 @@ const defineUserModel = (sequelize, DataTypes) => {
     timestamps: false,
   });
 
-  User.associate = (models) => {
-    User.hasMany(models.Address,
+  user.associate = (models) => {
+    user.hasMany(models.Address,
       { foreignKey: 'userId', as: 'addresses' });
   };
 
-  return User;
+  return user;
 };
 
 module.exports = defineUserModel;

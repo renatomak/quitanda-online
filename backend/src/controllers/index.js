@@ -4,6 +4,13 @@ const {
   addProduct,
   deleteProduct,
   changeProduct, } = require('./ProductsController');
+const {
+  getUsers,
+  getUserById,
+  addUser,
+  deleteUser,
+  changeUser,
+} = require('./UserController')
 
 module.exports = {
   getProducts,
@@ -11,4 +18,9 @@ module.exports = {
   addProduct,
   deleteProduct,
   changeProduct,
+  getUsers,
+  getUserById,
+  addUser,
+  deleteUser,
+  changeUser,
 };

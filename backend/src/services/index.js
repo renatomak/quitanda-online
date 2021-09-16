@@ -1,15 +1,27 @@
 const {
-    findAllProducts,
-    findProductByPk,
+  findAllProducts,
+  findProductByPk,
   createProduct,
   updateProduct,
   destroyProduct,
 } = require('./ProductsServices');
+const {
+  findAllUsers,
+  findUserByPk,
+  createUser,
+  updateUser,
+  destroyUser,
+} = require('./UsersServices');
 
 module.exports = {
-    findAllProducts,
-    findProductByPk,
+  findAllProducts,
+  findProductByPk,
   createProduct,
   updateProduct,
   destroyProduct,
+  findAllUsers,
+  findUserByPk,
+  createUser,
+  updateUser,
+  destroyUser,
 };

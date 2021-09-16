@@ -9,4 +9,10 @@ router.post('/products', Controller.addProduct);
 router.put('/products/:id', Controller.changeProduct);
 router.delete('/products/:id', Controller.deleteProduct);
 
+router.get('/users', Controller.getUsers);
+router.get('/users/:id', Controller.getUserById);
+router.post('/users', Controller.addUser);
+router.put('/users/:id', Controller.changeUser);
+router.delete('/users/:id', Controller.deleteUser);
+
 module.exports = router;
