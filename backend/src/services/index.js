@@ -12,6 +12,13 @@ const {
   updateUser,
   destroyUser,
 } = require('./UsersServices');
+const {
+  findAllAddress,
+  findAddressByPk,
+  createAddress,
+  updateAddress,
+  destroyAddress,
+} = require('./AddressServices');
 
 module.exports = {
   findAllProducts,
@@ -24,4 +31,9 @@ module.exports = {
   createUser,
   updateUser,
   destroyUser,
+  findAllAddress,
+  findAddressByPk,
+  createAddress,
+  updateAddress,
+  destroyAddress,
 };

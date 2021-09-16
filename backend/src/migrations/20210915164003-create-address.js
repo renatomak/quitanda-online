@@ -16,12 +16,12 @@ module.exports = {
       number: { type: Sequelize.INTEGER },
       complement: { type: Sequelize.STRING },
       reference: { type: Sequelize.STRING },
-      userId: {
+      user_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
         onUpdate: 'CASCADE',
         onDelete: 'CASCADE',
-        field: 'userId',
+        field: 'user_id',
         references: {
           model: 'users',
           key: 'id',

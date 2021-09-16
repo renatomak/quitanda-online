@@ -1,5 +1,5 @@
 const AddressModel = (sequelize, DataTypes) => {
-  const Address = sequelize.define('Address', {
+  const address = sequelize.define('address', {
     state: DataTypes.STRING,
     city: DataTypes.STRING,
     district: DataTypes.STRING,
@@ -14,12 +14,12 @@ const AddressModel = (sequelize, DataTypes) => {
     timestamps: false,
   });
 
-  Address.associate = (models) => {
-    Address.belongsTo(models.user,
-      { foreignKey: 'userId', as: 'users' });
+  address.associate = (models) => {
+    address.belongsTo(models.user,
+      { foreignKey: 'user_id', as: 'users' });
   };
 
-  return Address;
+  return address;
 };
 
 module.exports = AddressModel;

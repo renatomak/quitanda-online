@@ -10,7 +10,7 @@ module.exports = {
         complement: '',
         cep: '740000-000',
         reference: "em frente a alguma coisa",
-        userId: 1,
+        user_id: 1,
       },
       {
         state: 'Goiás',
@@ -21,7 +21,7 @@ module.exports = {
         complement: '',
         cep: '740000-000',
         reference: "em frente a alguma coisa",
-        userId: 2,
+        user_id: 2,
       },
       {
         state: 'Goiás',
@@ -32,7 +32,7 @@ module.exports = {
         complement: '',
         cep: '740000-000',
         reference: "em frente a alguma coisa",
-        userId: 3,
+        user_id: 3,
       },
       {
         state: 'Goiás',
@@ -43,7 +43,7 @@ module.exports = {
         complement: '',
         cep: '740000-000',
         reference: "em frente a alguma coisa",
-        userId: 4,
+        user_id: 4,
       },
     ]),
 

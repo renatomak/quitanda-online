@@ -11,6 +11,13 @@ const {
   deleteUser,
   changeUser,
 } = require('./UserController')
+const {
+  getAddress,
+  getAddressById,
+  addAddress,
+  deleteAddress,
+  changeAddress,
+} = require('./AddressController')
 
 module.exports = {
   getProducts,
@@ -23,4 +30,9 @@ module.exports = {
   addUser,
   deleteUser,
   changeUser,
+  getAddress,
+  getAddressById,
+  addAddress,
+  deleteAddress,
+  changeAddress,
 };

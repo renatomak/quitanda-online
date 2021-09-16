@@ -15,4 +15,10 @@ router.post('/users', Controller.addUser);
 router.put('/users/:id', Controller.changeUser);
 router.delete('/users/:id', Controller.deleteUser);
 
+router.get('/addresses', Controller.getAddress);
+router.get('/addresses/:id', Controller.getAddressById);
+router.post('/addresses', Controller.addAddress);
+router.put('/addresses/:id', Controller.changeAddress);
+router.delete('/addresses/:id', Controller.deleteAddress);
+
 module.exports = router;
