@@ -59,11 +59,9 @@ const addProduct = rescue(async (req, res) => {
 
 const deleteProduct = rescue(async (req, res) => {
   try {
-    const { id } = req.params;
+    const { id } = req.params; 
 
-    
-
-    return res.status(STATUS_201_CREATED).json({message: "ok"});
+    return res.status(STATUS_201_CREATED).json({ message: "ok"});
   } catch (error) {
     return res
     .status(STATUS_400_BAD_REQUEST)
@@ -73,7 +71,20 @@ const deleteProduct = rescue(async (req, res) => {
 });
 
 
-const changeProduct = rescue(async (req, res) => {});
+const changeProduct = rescue(async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { body } = req;
+
+    const newProduct = {...body, id };
+
+    const result = await updateProduct(newProduct);    
+
+    return res.status(STATUS_201_CREATED).json(result);
+  } catch (error) {
+    return res.status(STATUS_400_BAD_REQUEST).json({ message:  'Product does not exist'});
+  }
+});
 
 module.exports = {
   getProducts,

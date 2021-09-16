@@ -6,7 +6,7 @@ const findAllProducts = async () => {
     const result = await products.findAll();
     return result;
   } catch (error) {
-    throw Error(error.message + messageError("buscar Produtores"));
+    throw Error(error.message + messageError("buscar Produtos"));
   }
 };
 
@@ -16,7 +16,7 @@ const findProductByPk = async (id) => {
 
     return { product };
   } catch (error) {
-    throw Error(error.message + messageError("buscar Produtor por ID"));
+    throw Error(error.message + messageError("buscar Produto por ID"));
   }
 };
 
@@ -26,11 +26,24 @@ const createProduct = async (product) => {
 
     return newProduct;
   } catch (error) {
-    throw Error(error.message + messageError("cadastrar Produtor"));
+    throw Error(error.message + messageError("cadastrar Produto"));
   }
 };
 
-const updateProduct = (id) => {};
+const updateProduct = async (product) => {
+  try {
+    const { id, name, price, description, quantity, type, url_image } = product;
+    await products.update(
+      { name, price, description, quantity, type, url_image },
+      { where: { id } },
+    );
+    const result = await findProductByPk(id);
+
+    return result
+  } catch (error) {
+    throw Error(error.message + messageError("atualizar o Produto"));
+  }
+};
 
 const destroyProduct = (id) => {};
 

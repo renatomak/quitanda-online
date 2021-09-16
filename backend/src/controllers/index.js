@@ -1,4 +1,5 @@
-const { getProducts,
+const {
+  getProducts,
   getProductById,
   addProduct,
   deleteProduct,
