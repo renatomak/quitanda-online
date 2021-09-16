@@ -1,6 +1,15 @@
-const { getAllProducts } = require('./ProductsServices');
-
+const {
+    findAllProducts,
+    findProductByPk,
+  createProduct,
+  updateProduct,
+  destroyProduct,
+} = require('./ProductsServices');
 
 module.exports = {
-    getAllProducts,
-}
+    findAllProducts,
+    findProductByPk,
+  createProduct,
+  updateProduct,
+  destroyProduct,
+};

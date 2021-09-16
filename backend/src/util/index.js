@@ -27,6 +27,9 @@ const checkedName = (name) => {
   return { invalid: false };
 };
 
+const messageError = (message) =>
+  `\n\n\n******Erro ao ${message}******\n\n\n\n`;
+
 module.exports = {
   SIZE_MIN_NAME,
   SIZE_PASSWORD,
@@ -43,5 +46,6 @@ module.exports = {
   NOT_FOUND,
   checkedPassword,
   checkedName,
+  messageError,
   SECRET,
 };
