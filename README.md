@@ -8,6 +8,13 @@ Quitanda Online é uma loja virtual (e-commerce) fictícia e estática, criada c
 
 O Loyout da aplicação foi feita com base no curso curso ["Desenvolvimento de uma Loja Virtual com Bootstrap 5 e ASP.NET 5"](https://www.youtube.com/watch?v=SGqe6RixDcg) que é feito em HTML e Bootstrap.
 
+---
+
+## Produção: Acesse a aplicação no link a baixo e faça o login
+
+["Quitanda Online"](https://quitandasonline.netlify.app/)
+
+
 ## Layout
 
 <h1 align="center">
@@ -45,7 +52,6 @@ npm / yarn
 1. Instale as dependências - npm install ou yarn install
 2. Inicie o projeto - npm start ou yarn start
 
-## Acesse: ["Quitanda Online"](https://quitandasonline.netlify.app/)
 
 ## Proximos Passos
 
