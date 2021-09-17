@@ -1,9 +1,11 @@
 const { products } = require('../models');
 const { messageError } = require("../util");
 
-const findAllProducts = async () => {
+const findAllProducts = async (skip, limit) => {
   try {
-    const result = await products.findAll();
+    const result = await products.findAll({
+      offset: skip, limit:limit
+    });
     return result;
   } catch (error) {
     throw Error(error.message + messageError("buscar Produtos"));
