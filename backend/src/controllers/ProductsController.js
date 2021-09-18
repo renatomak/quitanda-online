@@ -19,8 +19,13 @@ const {
 
 const getProducts = rescue(async (req, res) => {
   try {
+<<<<<<< HEAD
     const { page } = req.params;
     const result = await findAllProducts(page);
+=======
+    const {skip, limit} = req.body;
+    const result = await findAllProducts(skip, limit);
+>>>>>>> b91b4c4201d4cd95c98a24fe494308f8622a90d2
 
     return res.status(STATUS_200_OK).json(result);
   } catch (error) {

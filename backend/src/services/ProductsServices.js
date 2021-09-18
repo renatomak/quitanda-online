@@ -1,6 +1,7 @@
 const { products } = require('../models');
 const { messageError } = require("../util");
 
+<<<<<<< HEAD
 const findAllProducts = async (page) => {
   try {
     // const options = {
@@ -16,6 +17,12 @@ const findAllProducts = async (page) => {
     const result = await products.findAll({
       limit: 4,
       offset: 4
+=======
+const findAllProducts = async (skip, limit) => {
+  try {
+    const result = await products.findAll({
+      offset: skip, limit:limit
+>>>>>>> b91b4c4201d4cd95c98a24fe494308f8622a90d2
     });
     return result;
   } catch (error) {
