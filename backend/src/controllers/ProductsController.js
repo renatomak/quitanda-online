@@ -17,9 +17,10 @@ const {
 
 
 
-const getProducts = rescue(async (_req, res) => {
+const getProducts = rescue(async (req, res) => {
   try {
-    const result = await findAllProducts();
+    const { page } = req.params;
+    const result = await findAllProducts(page);
 
     return res.status(STATUS_200_OK).json(result);
   } catch (error) {

@@ -1,8 +1,8 @@
 import React from 'react';
 
 const WhoWeAre = () => (
-  <main class="flex-fill">
-    <div class="container">
+  <main className="flex-fill">
+    <div className="container">
       <h1>Quem Somos</h1>
       <hr />
       <p>

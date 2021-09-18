@@ -1,9 +1,22 @@
 const { products } = require('../models');
 const { messageError } = require("../util");
 
-const findAllProducts = async () => {
+const findAllProducts = async (page) => {
   try {
-    const result = await products.findAll();
+    // const options = {
+    //   attributes: ['id', 'name', 'price', 'description', 'quantity', 'type', 'url_image' ],
+    //   page: 1, // Default 1
+    //   paginate: 4, // Default 25
+    //   order: [['name', 'DESC']],
+    // }
+    // const { docs, pages, total } = await products.paginate(options);
+    // console.log(docs, pages, total)
+    const offset = parseInt(page-1)*4;
+
+    const result = await products.findAll({
+      limit: 4,
+      offset: 4
+    });
     return result;
   } catch (error) {
     throw Error(error.message + messageError("buscar Produtos"));

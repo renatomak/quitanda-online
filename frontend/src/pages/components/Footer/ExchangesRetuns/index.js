@@ -1,8 +1,8 @@
 import React from 'react';
 
 const ExchangesRetuns = () => (
-  <main class="flex-fill">
-    <div class="container">
+  <main className="flex-fill">
+    <div className="container">
       <h1>Política de Trocas e Devoluções</h1>
       <hr />
       <p>

@@ -1,8 +1,8 @@
 import React from 'react';
 
 const TermsOfUse = () => (
-  <main class="flex-fill">
-    <div class="container">
+  <main className="flex-fill">
+    <div className="container">
       <h2>1. Termos</h2>
       <p>
         {/* TODO: Inserir dominio correto apos enviar para produção */}

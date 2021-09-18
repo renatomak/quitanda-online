@@ -1,8 +1,8 @@
 import React from 'react';
 
 const PrivacyPolicy = () => (
-  <main class="flex-fill">
-    <div class="container">
+  <main className="flex-fill">
+    <div className="container">
       <h2>Política Privacidade</h2>
       <p>
         A sua privacidade é importante para nós. É política do Quitanda Online

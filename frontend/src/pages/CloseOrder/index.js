@@ -1,12 +1,12 @@
 import React from 'react';
 
 const CloseOrder = () => (
-  <main class="flex-fill">
-    <div class="container text-center">
+  <main className="flex-fill">
+    <div className="container text-center">
       <h1>Obrigado!</h1>
       <hr />
       <h3>Anote o número de seu pedido:</h3>
-      <h2 class="text-danger">
+      <h2 className="text-danger">
         <b>004571</b>
       </h2>
       <p>
@@ -21,7 +21,7 @@ const CloseOrder = () => (
         Equipe Quitanda Online
       </p>
       <p>
-        <a href="/" class="btn btn-danger btn-lg">
+        <a href="/" className="btn btn-danger btn-lg">
           Voltar à Página Principal
         </a>
       </p>

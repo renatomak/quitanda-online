@@ -1,15 +1,15 @@
-import React from "react";
-import Cards from "../components/Cards";
-import Carousel from "../components/Carousel";
-import Order from "../components/Order";
-import SearchBar from "../components/SearchBar";
+import React from 'react';
+import Cards from '../components/Cards';
+import Carousel from '../components/Carousel';
+import Order from '../components/Order';
+import SearchBar from '../components/SearchBar';
 
 const Home = () => {
   return (
     <>
       <Carousel />
-      <main class="flex-fill">
-        <div class="container">
+      <main className="flex-fill">
+        <div className="container">
           <SearchBar />
           <hr mt-3 />
           <Cards />

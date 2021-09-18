@@ -1,17 +1,17 @@
 import React from 'react';
 
 const RecoverPassword = () => (
-  <main class="flex-fill">
-    <div class="container">
-      <div class="row justify-content-center">
-        <form class="col-sm-10 col-md-8 col-lg-6">
+  <main className="flex-fill">
+    <div className="container">
+      <div className="row justify-content-center">
+        <form className="col-sm-10 col-md-8 col-lg-6">
           <h1>Recuperação de Senha</h1>
 
-          <div class="form-floating mb-3">
+          <div className="form-floating mb-3">
             <input
               type="email"
               id="txtEmail"
-              class="form-control"
+              className="form-control"
               placeholder=" "
               autofocus
             />
@@ -21,12 +21,12 @@ const RecoverPassword = () => (
           <button
             type="button"
             onclick="window.location.href='/confirmrecupsenha.html'"
-            class="btn btn-lg btn-danger"
+            className="btn btn-lg btn-danger"
           >
             Recuperar Senha
           </button>
 
-          <p class="mt-3">
+          <p className="mt-3">
             Ainda não é cadastrado? <a href="/cadastro.html">Clique aqui</a>{' '}
             para se cadastrar.
           </p>

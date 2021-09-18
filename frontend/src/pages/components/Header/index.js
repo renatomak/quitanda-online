@@ -1,57 +1,57 @@
-import React from "react";
-import { Cart } from "react-bootstrap-icons";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Cart } from 'react-bootstrap-icons';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-danger border-bottom shadow-sm mb-3">
-        <div class="container">
-          <a class="navbar-brand" href="/">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-danger border-bottom shadow-sm mb-3">
+        <div className="container">
+          <a className="navbar-brand" href="/">
             <b>Quitanda Online</b>
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target=".navbar-collapse"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse">
-            <ul class="navbar-nav flex-grow-1">
-              <li class="nav-item">
-                <a class="nav-link text-white" href="/">
+          <div className="collapse navbar-collapse">
+            <ul className="navbar-nav flex-grow-1">
+              <li className="nav-item">
+                <a className="nav-link text-white" href="/">
                   Principal
                 </a>
               </li>
-              <li class="nav-item">
-                <Link to="/contact" class="nav-link text-white">
+              <li className="nav-item">
+                <Link to="/contact" className="nav-link text-white">
                   Contato
                 </Link>
               </li>
             </ul>
-            <div class="align-self-end">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <Link to="/registration" class="nav-link text-white">
-                    {" "}
-                    Quero Me Cadastrar{" "}
+            <div className="align-self-end">
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <Link to="/registration" className="nav-link text-white">
+                    {' '}
+                    Quero Me Cadastrar{' '}
                   </Link>
                 </li>
-                <li class="nav-item">
-                  <a href="/login" class="nav-link text-white">
+                <li className="nav-item">
+                  <a href="/login" className="nav-link text-white">
                     Entrar
                   </a>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <span
-                    class="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0"
+                    className="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0"
                     title="5 produto(s) no carrinho"
                   >
                     <small>5</small>
                   </span>
-                  <Link to="/shopp-cart" class="nav-link text-white">
+                  <Link to="/shopp-cart" className="nav-link text-white">
                     <Cart />
                   </Link>
                 </li>
